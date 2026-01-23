@@ -195,6 +195,11 @@ td {
     text-align: justify;
 }
 
+ul {
+    text-align: justify;
+    margin-right: 20px;
+}
+
 #content p:first-child a {
     font-size: 1.1em;
     font-style: italic;

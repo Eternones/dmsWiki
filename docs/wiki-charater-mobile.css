@@ -111,6 +111,7 @@ del {
     list-style: none;
     margin: 0 auto;
     padding-left: 0;
+    padding-inline-start: 0;
     text-align: center;
 }
 
@@ -142,7 +143,7 @@ del {
 
 #content>div {
     margin: 20px;
-    padding: 20px;
+    padding: 20px 10px;
     background-color: rgb(250, 250, 250);
     border-radius: 5px;
 }
@@ -197,7 +198,7 @@ td {
 }
 
 #content p {
-    margin: 10px 20px;
+    margin: 10px 0px;
     text-align: justify;
 }
 

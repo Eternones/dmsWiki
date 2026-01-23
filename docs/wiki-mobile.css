@@ -89,6 +89,7 @@ body {
     list-style: none;
     margin: 0 auto;
     padding-left: 0;
+    padding-inline-start: 0;
     text-align: center;
 }
 
@@ -117,7 +118,7 @@ body {
 #content div{
     position: relative;
     margin: 20px;
-    padding: 20px;
+    padding: 20px 10px;
     background-color: rgb(250, 250, 250);
     border-radius: 5px;
 }
@@ -127,15 +128,15 @@ body {
     text-align: center;
 }
 #content th{
-    padding: 0px 50px;
-    width: 200px;
+    padding: 0px 10px;
+    width: auto;
 }
 #content table .content-head{
     display: inline-block;
     padding: 10px 0px 20px 0px;
 }
 #content p{
-    margin: 20px;
+    margin: 20px 0px;
     text-align: justify;
 }
 #content p:first-child a{
